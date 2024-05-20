@@ -13,25 +13,18 @@ MernMart is an e-commerce platform built using the MERN stack. This project show
 - [Usage](#usage)
 - [Why I Built This](#why-i-built-this)
 - [Optimizations](#optimizations)
-- [License](#license)
 
 ## Technologies Used
-
-### Frontend
 
 - **React**: A JavaScript library for building user interfaces
 - **Redux**: State management library
 - **React Router**: Declarative routing for React applications
 - **Axios**: Promise-based HTTP client for the browser and Node.js
-- **Bootstrap**: CSS framework for building responsive websites
-
-### Backend
-
 - **Node.js**: JavaScript runtime built on Chrome's V8 JavaScript engine
 - **Express.js**: Fast, minimalist web framework for Node.js
 - **MongoDB**: NoSQL database for storing product and user information
 - **Mongoose**: Elegant MongoDB object modeling for Node.js
-- **JWT**: JSON Web Token for user authentication
+- **Firebase**: For hosting and Authentication
 
 ## Features
 
