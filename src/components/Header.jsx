@@ -2,8 +2,13 @@ import { NavLink } from "react-router-dom";
 import "./Header.css";
 import { MagnifyingGlassIcon } from "@heroicons/react/24/outline";
 import { ShoppingCartIcon } from "@heroicons/react/24/solid";
+import { useStateValue } from "../StateProvider";
 
 const Header = () => {
+  const [{ basket }] = useStateValue();
+
+  console.log(basket);
+
   return (
     <nav className="header">
       <NavLink to="/">
@@ -43,7 +48,9 @@ const Header = () => {
       <NavLink to="/checkout" className="header__link">
         <div className="header__optionBasket">
           <ShoppingCartIcon className="header__basket" />
-          <span className="header__optionLineTwo header__basketCount">0</span>
+          <span className="header__optionLineTwo header__basketCount">
+            {basket?.length}
+          </span>
         </div>
       </NavLink>
     </nav>
