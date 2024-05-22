@@ -1,6 +1,6 @@
 # MernMart
 
-MernMart is an e-commerce platform built using the MERN stack. This project showcases my full-stack development skills and demonstrates my ability to create a Single Page Application (SPA) with modern web technologies.
+MernMart is an e-commerce platform built using the React. Using React.js with **React Context API** and Firebase to build Amazon-Web-Clone. You can add to cart, remove from cart, checkout.
 
 **Link to project:** http://recruiters-love-seeing-live-demos.com/
 
@@ -19,7 +19,6 @@ MernMart is an e-commerce platform built using the MERN stack. This project show
 - **React**: A JavaScript library for building user interfaces
 - **React Hooks**: useState, useContext, useReducer, createContext
 - **React Router**: Declarative routing for React applications
-- **Axios**: Promise-based HTTP client for the browser and Node.js
 - **Node.js**: JavaScript runtime built on Chrome's V8 JavaScript engine
 - **Express.js**: Fast, minimalist web framework for Node.js
 - **MongoDB**: NoSQL database for storing product and user information
@@ -50,10 +49,10 @@ I built MernMart to showcase my full-stack development skills, particularly in c
 
 - Develop and integrate a full-stack application from scratch
 - Implement user authentication and authorization
-- Manage state efficiently with Redux
+- Manage state efficiently with useContext API
 - Design and build responsive, user-friendly interfaces with React and Bootstrap
 - Work with RESTful APIs and manage data using MongoDB
 
 ## Optimizations
 
-You don't have to include this section but interviewers _love_ that you can not only deliver a final product that looks great but also functions efficiently. Did you write something then refactor it later and the result was 5x faster than the original implementation? Did you cache your assets? Things that you write in this section are **GREAT** to bring up in interviews and you can use this section as reference when studying for technical interviews!
+This was built as an attempt to practice using react with the useContext API which was a wonderful experience. I was able to get it to work. I would love to add authentication, maintaining user sessions and other nice features but my main focus for this was just to utilize the useContext API.
